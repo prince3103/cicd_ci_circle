@@ -1,7 +1,7 @@
 import argparse
 import logging
-from pylint.lint import Run
 
+from pylint.lint import Run
 
 logging.getLogger().setLevel(logging.INFO)
 
@@ -23,10 +23,8 @@ parser.add_argument(
     help="score threshold to fail pylint runner | "
     "Default: %(default)s | "
     "Type: %(type)s ",
-    default=5.5,
-    type=float,  
-
-    
+    default=4,
+    type=float,
 )
 
 args = parser.parse_args()
