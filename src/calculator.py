@@ -15,7 +15,7 @@ class Calculator:
     @staticmethod
     def subtract(first_term: int, second_term: int) -> int:
         return first_term - second_term
-    # changes in multipy function new updates
+    # changes in multipy function new updates server hook
 
     @staticmethod
     def multiply(first_term: int, second_term: int) -> int:
