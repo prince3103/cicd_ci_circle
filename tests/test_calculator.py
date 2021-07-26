@@ -9,7 +9,7 @@ from cicd_ci_circle.src.calculator import Calculator
 
 class TestCalculator:
     def test_addition(self):
-        assert 6 == Calculator.add(4, 2)
+        assert 8 == Calculator.add(4, 4)
 
     def test_subtraction(self):
         assert 2 == Calculator.subtract(4, 2)
