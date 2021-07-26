@@ -9,7 +9,7 @@ class Calculator:
     """
 
     @staticmethod
-    def add(first_term: int, second_term: int) -> int:
+    def add(first_term: str, second_term: int) -> int:
         return first_term + second_term
 
     @staticmethod
