@@ -1,10 +1,9 @@
-'''
+"""
 Unit tests for the calculator library
-'''
+"""
 
 
 from cicd_ci_circle.src.calculator import Calculator
-
 
 
 class TestCalculator:
